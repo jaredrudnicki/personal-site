@@ -74,7 +74,7 @@ function App() {
                 <p> about.txt </p>
                 </label>
               </div>
-              <input id="about" name="app" type="radio" onDoubleClick={(event) => setOpen(event)} value="about" style={{display: "none"}}/>
+              <input id="about" name="app" type="radio" onDoubleClick={setOpen} value="about" style={{display: "none"}}/>
             </div>
           </Draggable>
 
