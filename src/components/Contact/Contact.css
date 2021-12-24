@@ -1,0 +1,35 @@
+#form-container {
+    margin: auto;
+    width: 400px;
+    padding: 10px;
+}
+
+#name-input, #email-input, #message-input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#message-input {
+    font-size: 14px;
+}
+
+#submit-button {
+    color: white;
+    float: right;
+    width: 80px;
+    background-color: #8661C1;
+    border-radius: 5px;
+    box-shadow: inset red;
+}
+
+#submit-button:hover {
+    background-color: #946FC3;
+}
+
+#submit {
+
+    text-decoration: none;
+    border: none;
+    background-color: none;
+}

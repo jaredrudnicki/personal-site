@@ -1,0 +1,17 @@
+.button-close {
+    border:none;
+    background-color: gray;
+    box-shadow: none;
+}
+.button-close:hover {
+    border: 1px solid black;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+textarea {
+    text-decoration: none;
+    border: none;
+}

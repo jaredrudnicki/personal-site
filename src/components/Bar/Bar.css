@@ -1,0 +1,29 @@
+.cpu_details {
+    background-color: gray;
+}
+#title {
+    font-size: 18px;
+}
+
+#github-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #2E294E;
+    float:right;
+}
+
+#linkedin-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #2E294E;
+    float:right;
+
+}
+
+#time {
+    margin-left: 5px;
+    margin-right: 5px;
+    float:right;
+}

@@ -1,38 +1,36 @@
 .App {
+  overflow: hidden;
+  overflow-y: hidden;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/961/511/739/anime-lupin-the-third-wallpaper-preview.jpg');
+  background-size: 100% 100%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  height: 1100px;
+}
+.App .desktop_icon {
+  width:80px;
+  height: 100px;
+  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.desktop_icon p {
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.desktop_icon i {
+  color: #2E294E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .row {
+  float: inline-start;
 }
 
-.App-link {
-  color: #61dafb;
+#spotify {
+  text-decoration: none;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.desktop-icon-container {
+  margin: 10px;
 }
+
