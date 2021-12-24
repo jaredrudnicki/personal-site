@@ -21,8 +21,8 @@ Used this project as an introduction to React, APIs and working with JSON data.
 Tools: react, bootstrap`
 
 const REVISION = `
-Created a static website for friends landscaping business, attempted to give a clean and
-simple look as opposed to their then current outdated website.
+Created a static website for friends landscaping business, attempted to give a clean 
+and simple look as opposed to their then current outdated website.
 Tools: html, css, bootstrap`
 
 function Project({open, setOpen}) {
